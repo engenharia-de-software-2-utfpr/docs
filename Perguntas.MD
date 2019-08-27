@@ -32,4 +32,6 @@
   - Nível de criticidade do relato (Escala de 1 a 5)
   - Pessoas podem denunciar relatos irregulares
   
+- Notas:
+  - Utilizaremos serviços gratuitos para o desenvolvimento. Para a implatação, entretanto, é interessante a busca de um serviço como Amazon, Azure, entre outros.
   
