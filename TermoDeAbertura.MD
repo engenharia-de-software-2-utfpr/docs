@@ -10,21 +10,32 @@ O sistema irá proporcionar uma ferramenta de relatos, além de formas de consci
 
 ### Objetivos do Projeto e Critérios de Sucesso
 
-    - Documentação e Protótipos
-    - Seguir o método de desenvolvimento ágil
-    - Cumprir o cronograma de entregas para o cliente
+    - Permitir que pessoas relatem ocorrências em relação a atitudes ambientais incorretas na cidade de Campo Mourão.
+    - Disponibilizar informações ambientais para a população, como pontos de descarte, informações sobre o bioma local, bem como um meio para que os usuários respondam a questões de interesse do projeto. Além disso, informar a população sobre eventos de interesse, bem como links para jogos educativos.
+    - Gerar relatórios a partir dos dados coletados para envio as autoridades
+   
 
 ### Requisitos do Projeto
 
-    - O projeto deve ser testado e implementodo com o auxílio do git/github.
-    - Os testes serão feitos com pessoas que não pertencem ao grupo.
-
+    - Backend
+      - Heroku para executar o servidor
+      - Mongo Atlas para o banco de dados
+      - Firebase Storage para armazenamento de imagens
+      - Node para o servidor
+      - CircleCI para Integração Contínua
+    - Frontend web:
+      - Netlify para hospedagem
+      - React como framework
+      - Leaflet para o mapa
+      - API de geolocalização do Google
+    - Frontend mobile:
+      - React Native como framework
+      - Mapas nativos
+      - API de geolocalização do Google
+      - Autenticação com o Facebook
+  
 ### Escopo preliminar (em alto nível)
 
-    - Este projeto inclui a documentação, implementação, teste e entrega do sistema requerido pelo cliente.
-    - Os recursos usados para o desenvolvimento serão gerenciados pelos membros da equipe.
-    - Este projeto será concluído quando o relatório final do sistema for apresentado após a última apresentação do sistema.
-    - Toda a documentação técnica e informações para o funcionamento.
 
 ### Principais Entregas (O que será produzido)
 
@@ -47,7 +58,5 @@ O sistema irá proporcionar uma ferramenta de relatos, além de formas de consci
 
 ### Requisitos para aprovação e aceitação do projeto
 
-- Atender os requisitos funcionais definidos pelo cliente
-- Desenvolver um site e um aplicativo com boa usabilidade
-- Documentação do projeto
-- Garantir segurança dos dados do cliente
+- Aprovação pelo professor
+- Aprovação pelo cliente
