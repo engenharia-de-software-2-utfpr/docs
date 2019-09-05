@@ -1,0 +1,52 @@
+# Requisitos
+
+## Usuário
+- Autenticação (O sistema deve permitir que o usuário se autentique):
+  - O usuário pode se autenticar via Facebook.
+  - O usuário pode se autenticar via número de telefone.
+  - O usuário deve estar cadastrado para realizar qualquer ação no sistema.
+- Ocorrências:
+  - Visualização:
+    - O sistema deve exibir as ocorrências aprovadas e não resolvidas através de pontos no mapa.
+    - Ao usuário clicar na ocorrência, o sistema deve exibir os detalhes da mesma.
+  - Cadastro (O sistema deve permitir que o usuário cadastre ocorrências):
+    - Pode-se fazer upload de fotos, vídeos e áudio.
+    - Pode-se incluir descrição da ocorrência em forma de texto.
+    - Pode-se classificar o nível de criticidade da ocorrência.
+    - Deve-se categorizar a ocorrência.
+    - O sistema deve permitir que o usuário cadastre ocorrências mesmo sem internet, devendo sincronizar ao conectar com a internet.
+    - A localização da ocorrência será feita utilizando as coordenadas locais do dispositivo.
+- Informações e coletas de dados:
+  - O sistema deve exibir os pontos de descartes.
+  - O sistema deve exibir dados de pesquisas/ações/conscientização.
+  - O sistema deve exibir dados de análise de água e sedimentos da bacia.
+  - O sistema deve permitir que os usuários respondam questionários feitos pelos administradores.
+  - O sistema deve exibir links externos para jogos educativos.
+- Eventos:
+  - O sistema deve exibir calendário de eventos cadastrados pelos administradores.
+    
+
+## Administradores
+- Autenticação (O sistema deve permitir que o administrador se autentique):
+  - O usuário pode se autenticar via Facebook.
+  - O usuário pode se autenticar via número de telefone.
+  - O usuário deve estar cadastrado para realizar qualquer ação no sistema.
+- Ocorrências:
+  - Visualização:
+    - O sistema deve exibir as ocorrências aprovadas e não resolvidas através de pontos no mapa.
+    - Ao usuário clicar na ocorrência, o sistema deve exibir os detalhes da mesma.
+  - Cadastro (O sistema deve permitir que o usuário cadastre ocorrências):
+    - Pode-se fazer upload de fotos, vídeos e áudio.
+    - Pode-se incluir descrição da ocorrência em forma de texto.
+    - Pode-se classificar o nível de criticidade da ocorrência.
+    - Deve-se categorizar a ocorrência.
+    - O sistema deve permitir que o usuário cadastre ocorrências mesmo sem internet, devendo sincronizar ao conectar com a internet.
+    - A localização da ocorrência será feita utilizando as coordenadas locais do dispositivo.
+- Informações e coletas de dados:
+  - O sistema deve exibir os pontos de descartes.
+  - O sistema deve exibir dados de pesquisas/ações/conscientização.
+  - O sistema deve exibir dados de análise de água e sedimentos da bacia.
+  - O sistema deve permitir que os usuários respondam questionários feitos pelos administradores.
+  - O sistema deve exibir links externos para jogos educativos.
+- Eventos:
+  - O sistema deve exibir calendário de eventos cadastrados pelos administradores.
