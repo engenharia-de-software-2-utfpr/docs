@@ -20,7 +20,7 @@ O sistema irá proporcionar uma ferramenta de relatos, além de formas de consci
     - Backend
       - Heroku para executar o servidor
       - Mongo Atlas para o banco de dados
-      - Firebase Storage para armazenamento de imagens
+      - Firebase Storage para armazenamento de dados
       - Node para o servidor
       - CircleCI para Integração Contínua
     - Frontend web:
@@ -32,7 +32,7 @@ O sistema irá proporcionar uma ferramenta de relatos, além de formas de consci
       - React Native como framework
       - Mapas nativos
       - API de geolocalização do Google
-      - Autenticação com o Facebook
+      - Autenticação com o Facebook e telefone
   
 ### Escopo preliminar (em alto nível)
 
