@@ -1,0 +1,69 @@
+Tipo de usuário,Categoria,Front/Back,Tarefa,Estimativa otimista,Estimativa realista,Estimativa pessimista,Estimativa média
+Nenhum,Configuração,Back,Configurar ambiente desenvolvimento/produção,8,14,20,14
+Usuário Comum,Autenticação,Front mobile,Login por Facebook,1,2,3,2
+,,,Login por telefone,1,2,3,2
+,,,Logout,"0,5","0,75",1,"0,75"
+,,,Cadastro por Telefone,1,2,3,2
+,,Back,Validação login Facebook,1,2,3,2
+,,,Validação login telefone,1,2,3,2
+,,,Cadastro por Facebook,1,2,3,2
+,,,Cadastro por telefone,1,2,3,2
+,,Front mobile,Criar estrutura da home,2,5,8,5
+,Ocorrências,,Mostrar mapa centralizado na posição do usuário,1,1,1,1
+,,,Mostrar marcadores de acordo com as categorias,2,4,"5,5","3,916666667"
+,,,Mostrar tela com detalhes ao clicar em uma ocorrência,5,8,10,"7,833333333"
+,,,Criar nova ocorrência,15,20,25,20
+,,,Funcionamento offline,8,10,12,10
+,,Back,Retornar lista de ocorrências aprovadas da região,2,4,6,4
+,,,Retornar detalhes de uma ocorrência,3,5,7,5
+,,,Cadastrar nova ocorrência,8,10,12,10
+,Informacional,Front mobile,Exibir pontos de descarte,3,5,8,"5,166666667"
+,,,Exibir dados de pesquisas/ações/conscientização,4,7,10,7
+,,,Exibir dados de análise de água e sedimentos da bacia,4,7,10,7
+,,,Exibir links externos para jogos educativos,2,3,5,"3,166666667"
+,,,Exibir eventos,2,3,5,"3,166666667"
+,,,Formulários,1,3,5,3
+,,Back,Retornar Pontos de descarte,2,3,4,3
+,,,Retornar dados de pesquisas/ações/conscientização,2,3,4,3
+,,,Retornar dados de análise de água e sedimentos da bacia,2,3,4,3
+,,,Retornar formulários,1,2,3,2
+,,,Retornar links de jogos educativos,1,2,3,2
+Administrador,,,,,,,
+,Autenticação,Front web,Login por email,1,2,3,2
+,,Back,Login admin,1,2,3,2
+,Ocorrência,Front web,Exibição do mapa,1,2,3,2
+,,,Criar estrutura da home,3,5,7,5
+,,,Definir icones para categorias de ocorrências,2,3,4,3
+,,,Visualização de ocorrências aprovadas no mapa,2,3,4,3
+,,,Visualização de mapa de calor,3,5,7,5
+,,,Lista com todas as ocorrências,1,2,4,"2,166666667"
+,,,Lista com ocorrências pendentes; Aprovar/Rejeitar,1,2,4,"2,166666667"
+,,,Marcar ocorrência como resolvida no mapa,1,1,1,1
+,,,Marcar ocorrência como resolvida na lista de aprovadas,1,1,1,1
+,,Back,Criar tabela de categorias,1,1,1,1
+,,,CRUD ocorrências,5,7,9,7
+,,,Aprovar/Rejeitar ocorrências pendentes,2,4,6,4
+,,,Marcar ocorrência como resolvida,1,2,3,2
+,Usuários,Front,Criar admnistradores,1,2,3,2
+,,,Bloquear admnistradores,1,1,1,1
+,,,Atualizar informações de admnistradores,1,1,1,1
+,,,Visualizar informações de admnistradores,1,2,3,2
+,,,Visulizar informações de usuários comuns,1,2,3,2
+,,,Bloquear usuários comuns,1,1,1,1
+,,Back,CRUD admnistradores,1,2,3,2
+,,,Retornar/Bloquear usuários comuns,1,2,3,2
+,Relatórios,Front,Exibir relatórios,10,13,18,"13,33333333"
+,,,Gerar relatórios,1,1,1,1
+,,Back,Criar relatórios,8,10,12,10
+,,,Retornar relatórios,1,2,3,2
+,,,Gerar relatório,8,10,12,10
+,Informacional,Front,CRUD Pontos de descarte,6,10,13,"9,833333333"
+,,,CRUD dados de pesquisas/ações/conscientização,6,10,13,"9,833333333"
+,,,CRUD dados de análise de água e sedimentos da bacia,6,10,13,"9,833333333"
+,,,CRUD formulários,2,3,4,3
+,,,CRUD links de jogos educativos,2,3,4,3
+,,Back,CRUD Pontos de descarte,2,3,4,3
+,,,CRUD dados de pesquisas/ações/conscientização,2,3,4,3
+,,,CRUD dados de análise de água e sedimentos da bacia,2,3,4,3
+,,,CRUD formulários,1,2,3,2
+,,,CRUD links de jogos educativos,1,2,3,2
